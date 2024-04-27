@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "com.from2001.vrm-visualscripting-nodes": "0.1.9",
-    "com.from2001.gltfast-visualscripting-nodes": "0.0.21",
+    "com.from2001.gltfast-visualscripting-nodes": "0.1.0",
     "com.from2001.spectrum-visualscripting-nodes": "0.0.3",
     "com.styly.webrequest-visualscripting-nodes": "0.0.7"
   }
