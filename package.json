@@ -1,0 +1,18 @@
+{
+  "name": "com.styly.package-collection-spatial-layer",
+  "version": "0.1.0",
+  "displayName": "STYLY Package Collection for Spatial Layer",
+  "unity": "2022.3",
+  "description": "STYLY Package Collection for Spatial Layer",
+  "author": {
+    "name": "STYLY, Inc.",
+    "email": "info@styly.inc",
+    "url": "https://styly.cc/"
+  },
+  "dependencies": {
+    "com.from2001.vrm-visualscripting-nodes": "0.1.9",
+    "com.from2001.gltfast-visualscripting-nodes": "0.0.21",
+    "com.from2001.spectrum-visualscripting-nodes": "0.0.3",
+    "com.styly.webrequest-visualscripting-nodes": "0.0.7"
+  }
+}
