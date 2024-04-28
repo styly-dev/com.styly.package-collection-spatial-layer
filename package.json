@@ -10,9 +10,13 @@
     "url": "https://styly.cc/"
   },
   "dependencies": {
+    "com.unity.textmeshpro": "3.0.7",
+    "com.unity.probuilder": "5.2.2",
     "com.from2001.vrm-visualscripting-nodes": "0.1.9",
     "com.from2001.gltfast-visualscripting-nodes": "0.1.0",
     "com.from2001.spectrum-visualscripting-nodes": "0.0.3",
-    "com.styly.webrequest-visualscripting-nodes": "0.0.7"
+    "com.styly.webrequest-visualscripting-nodes": "0.0.7",
+    "com.cysharp.unitask": "2.5.4",
+    "com.annulusgames.lit-motion": "1.8.0"
   }
 }
