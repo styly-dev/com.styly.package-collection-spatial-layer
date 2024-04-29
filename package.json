@@ -1,6 +1,6 @@
 {
   "name": "com.styly.package-collection-spatial-layer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "displayName": "STYLY Package Collection for Spatial Layer",
   "unity": "2022.3",
   "description": "STYLY Package Collection for Spatial Layer",
@@ -17,6 +17,5 @@
     "com.from2001.spectrum-visualscripting-nodes": "0.0.3",
     "com.styly.webrequest-visualscripting-nodes": "0.0.7",
     "com.cysharp.unitask": "2.5.4",
-    "com.annulusgames.lit-motion": "1.8.0"
   }
 }
