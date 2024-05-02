@@ -1,6 +1,6 @@
 {
   "name": "com.styly.package-collection-spatial-layer",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "displayName": "STYLY Package Collection for Spatial Layer",
   "unity": "2022.3",
   "description": "STYLY Package Collection for Spatial Layer",
@@ -16,6 +16,10 @@
     "com.from2001.gltfast-visualscripting-nodes": "0.1.0",
     "com.from2001.spectrum-visualscripting-nodes": "0.0.3",
     "com.styly.webrequest-visualscripting-nodes": "0.0.7",
-    "com.cysharp.unitask": "2.5.4"
+    "com.cysharp.unitask": "2.5.4",
+    "com.unity.inputsystem": "1.8.2",
+    "com.unity.xr.arfoundation": "5.1.4",
+    "com.unity.xr.interaction.toolkit": "3.0.1",
+    "com.unity.xr.hands": "1.4.1"
   }
 }
