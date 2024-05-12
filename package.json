@@ -16,6 +16,7 @@
     "com.from2001.vrm-visualscripting-nodes": "0.1.11",
     "com.from2001.gltfast-visualscripting-nodes": "0.1.3",
     "com.from2001.spectrum-visualscripting-nodes": "0.0.3",
+    "jp.keijiro.osc-jack": "2.0.0",
     "com.styly.webrequest-visualscripting-nodes": "0.0.7",
     "com.cysharp.unitask": "2.5.4",
     "com.unity.inputsystem": "1.8.2",
