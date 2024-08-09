@@ -1,6 +1,6 @@
 {
   "name": "com.styly.package-collection-spatial-layer",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "displayName": "STYLY Package Collection for Spatial Layer",
   "unity": "2022.3",
   "description": "STYLY Package Collection for Spatial Layer",
@@ -14,7 +14,7 @@
     "com.unity.probuilder": "5.2.2",
     "com.unity.visualscripting": "1.9.4",
     "com.from2001.vrm-visualscripting-nodes": "0.1.11",
-    "com.from2001.gltfast-visualscripting-nodes": "0.1.4",
+    "com.from2001.gltfast-visualscripting-nodes": "0.1.5",
     "com.from2001.spectrum-visualscripting-nodes": "0.0.3",
     "jp.keijiro.osc-jack": "2.0.0",
     "jp.keijiro.osc-jack.visualscripting": "2.0.0",
