@@ -1,6 +1,6 @@
 {
   "name": "com.styly.package-collection-spatial-layer",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "displayName": "STYLY Package Collection for Spatial Layer",
   "unity": "2022.3",
   "description": "STYLY Package Collection for Spatial Layer",
@@ -25,6 +25,7 @@
     "com.unity.xr.interaction.toolkit": "3.0.3",
     "com.unity.xr.hands": "1.4.1",
     "com.styly.hands": "0.0.1",
-    "com.unity.cinemachine": "2.10.3"
+    "com.unity.cinemachine": "2.10.3",
+    "com.styly.shader-collection.urp": "0.0.1"
   }
 }
