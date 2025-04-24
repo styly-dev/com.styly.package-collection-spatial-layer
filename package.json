@@ -1,8 +1,8 @@
 {
   "name": "com.styly.package-collection-spatial-layer",
-  "version": "1.0.17",
+  "version": "1.1.0",
   "displayName": "STYLY Package Collection for Spatial Layer",
-  "unity": "2022.3",
+  "unity": "6000.0",
   "description": "STYLY Package Collection for Spatial Layer",
   "author": {
     "name": "STYLY, Inc.",
@@ -10,9 +10,8 @@
     "url": "https://styly.cc/"
   },
   "dependencies": {
-    "com.unity.textmeshpro": "3.0.7",
-    "com.unity.probuilder": "5.2.2",
-    "com.unity.visualscripting": "1.9.4",
+    "com.unity.probuilder": "6.0.5",
+    "com.unity.visualscripting": "1.9.6",
     "com.from2001.vrm-visualscripting-nodes": "0.1.11",
     "com.from2001.gltfast-visualscripting-nodes": "0.1.5",
     "com.from2001.spectrum-visualscripting-nodes": "0.0.3",
@@ -20,10 +19,10 @@
     "jp.keijiro.osc-jack.visualscripting": "2.0.0",
     "com.styly.webrequest-visualscripting-nodes": "0.0.7",
     "com.cysharp.unitask": "2.5.4",
-    "com.unity.inputsystem": "1.8.2",
-    "com.unity.xr.arfoundation": "5.1.4",
-    "com.unity.xr.interaction.toolkit": "3.0.3",
-    "com.unity.xr.hands": "1.4.1",
+    "com.unity.inputsystem": "1.14.0",
+    "com.unity.xr.arfoundation": "6.0.5",
+    "com.unity.xr.interaction.toolkit": "3.0.8",
+    "com.unity.xr.hands": "1.5.0",
     "com.styly.hands": "0.0.1",
     "com.unity.cinemachine": "2.10.3",
     "com.styly.shader-collection.urp": "0.0.4"
