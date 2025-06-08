@@ -130,6 +130,7 @@ namespace STYLY.PackageCollection.Editor
             
             int updateCount = 0;
             int checkedCount = 0;
+            int installedCount = 0;
             
             foreach (var dependency in currentDependencies)
             {
@@ -140,17 +141,18 @@ namespace STYLY.PackageCollection.Editor
                 
                 if (installedPackages.ContainsKey(packageName))
                 {
+                    installedCount++;
                     string installedVersion = installedPackages[packageName];
                     
                     if (CompareVersions(installedVersion, expectedVersion) != 0)
                     {
                         updateCount++;
-                        Debug.Log($"📦 {packageName}: Expected {expectedVersion}, Installed {installedVersion} " +
-                                 $"{(CompareVersions(installedVersion, expectedVersion) > 0 ? "(newer)" : "(older)")}");
+                        string comparison = CompareVersions(installedVersion, expectedVersion) > 0 ? "(newer than expected)" : "(older than expected)";
+                        Debug.LogWarning($"📦 {packageName}: Expected {expectedVersion}, Installed {installedVersion} {comparison}");
                     }
                     else
                     {
-                        Debug.Log($"✅ {packageName}: {installedVersion} (up to date)");
+                        Debug.Log($"✅ {packageName}: {installedVersion} (matches expected version)");
                     }
                 }
                 else
@@ -160,15 +162,19 @@ namespace STYLY.PackageCollection.Editor
                 }
             }
             
-            Debug.Log($"=== Summary: {checkedCount} packages checked, {updateCount} discrepancies found ===");
+            Debug.Log($"=== Summary ===");
+            Debug.Log($"Total dependencies: {checkedCount}");
+            Debug.Log($"Installed packages: {installedCount}");
+            Debug.Log($"Version discrepancies: {updateCount}");
             
             if (updateCount == 0)
             {
-                Debug.Log("🎉 All packages are up to date!");
+                Debug.Log("🎉 All packages are installed with expected versions!");
             }
             else
             {
-                Debug.LogWarning($"⚠️ {updateCount} packages have version discrepancies. Consider updating your project.");
+                Debug.LogWarning($"⚠️ {updateCount} packages have version discrepancies or are missing.");
+                Debug.Log("💡 Tip: Use Unity Package Manager to update packages or check OpenUPM for external packages.");
             }
         }
         
