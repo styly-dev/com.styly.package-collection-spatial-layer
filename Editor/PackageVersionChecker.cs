@@ -8,11 +8,24 @@ using UnityEditor.PackageManager.Requests;
 
 namespace STYLY.PackageCollection.Editor
 {
+    /// <summary>
+    /// Editor utility to check version discrepancies between expected dependencies in package.json
+    /// and currently installed packages in the Unity project.
+    /// 
+    /// Usage: Unity Editor Menu -> STYLY -> Check Package Updates
+    /// 
+    /// This tool helps maintain consistency between the package collection's declared dependencies
+    /// and what's actually installed in projects using this package collection.
+    /// </summary>
     public class PackageVersionChecker : EditorWindow
     {
         private static ListRequest listRequest;
         private static Dictionary<string, string> currentDependencies;
         
+        /// <summary>
+        /// Menu item to trigger package version checking.
+        /// Checks all dependencies listed in package.json against currently installed packages.
+        /// </summary>
         [MenuItem("STYLY/Check Package Updates")]
         public static void CheckPackageUpdates()
         {
